@@ -1,0 +1,93 @@
+﻿@{
+    var controller = ViewContext.RouteData.Values["controller"]?.ToString();
+    var action = ViewContext.RouteData.Values["action"]?.ToString();
+    var yearId = ViewContext.RouteData.Values["yearId"]?.ToString();
+    var monthId = ViewContext.RouteData.Values["monthId"]?.ToString();
+
+
+    int[] months = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
+    string getMonth()
+    {
+        // loop over months, match the monthid from the route data
+        foreach (var month in months)
+        {
+            if (monthId == month.ToString())
+            {
+                return month.ToString();
+            }
+        }
+        return "0";
+
+    }
+
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - JobTracker2</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/JobTracker2.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="d-flex">
+        <nav class="sidebar d-flex flex-column flex-shrink-0 position-fixed">
+            @*   <button class="toggle-btn" onclick="toggleSidebar()">
+                <i class="fas fa-chevron-left"></i>
+            </button> *@
+
+            <div class="p-4">
+                <h4 class="logo-text fw-bold mb-0">Job tracker</h4>
+                <p class="text-muted small hide-on-collapse">Dashboard</p>
+            </div>
+
+            <div class="nav flex-column">
+                <a asp-controller="Home" asp-action="Index"
+                    class="sidebar-link @(controller == "Home" && action == "Index" ? "active" : "") text-decoration-none p-3">
+                    <i class="fas fa-home me-3"></i>
+                    <span class="hide-on-collapse">Dashboard</span>
+                </a>
+                <a asp-controller="Year" asp-action="Months" asp-route-YearId="2025"
+                    class="sidebar-link @(controller == "Year" && action == "Months" && yearId == "2025" || monthId == getMonth() && yearId == "2025" ? "active" : "") text-decoration-none p-3">
+                    <i class="fas fa-chart-bar me-3"></i>
+                    <span class="hide-on-collapse">2025</span>
+                </a>
+                <a asp-controller="Year" asp-action="Months" asp-route-YearId="2026"
+                    class="sidebar-link @(controller == "Year" && action == "Months" && yearId == "2026" || monthId == getMonth() && yearId == "2026" ? "active" : "") text-decoration-none p-3">
+                    <i class="fas fa-chart-bar me-3"></i>
+                    <span class="hide-on-collapse">2026</span>
+                </a>
+            </div>
+
+
+        </nav>
+
+        <main class="main-content container-fluid">
+
+
+            @RenderBody()
+
+
+        </main>
+
+        <script>
+            function toggleSidebar() {
+                const sidebar = document.querySelector('.sidebar');
+                sidebar.classList.toggle('collapsed');
+            }
+        </script>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

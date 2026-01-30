@@ -1,0 +1,8 @@
+﻿@model List<Year>
+@{
+    ViewBag.Title = "Year list";
+}
+@foreach (Year year in Model)
+{
+    <li><a asp-action="Months" asp-route-yearId="@year.YearId">@year.Yr</a></li>
+}

@@ -1,0 +1,149 @@
+﻿@using JobTracker2.DTOs
+@using JobTracker2.ViewModels
+@model JobsViewModel
+@{
+    var jobList = Model;
+    // get the most applied city
+    var mostAppliedCity = jobList.GroupedByCityList
+    .OrderByDescending(g => g.Count)
+    .FirstOrDefault();
+
+
+}
+@if (TempData["message"] != null)
+{
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+    <script type="text/javascript">
+        toastr.success('@TempData["message"]');
+    </script>
+}
+
+
+<h1>Jobs applied @ViewData["Title"]</h1>
+<div class="row">
+    <div class="col-md-6 alert alert-primary">
+        <h5 class="text-center">Total jobs applied @jobList.Jobs.Count()</h5>
+    </div>
+    <div class="col-md-6 alert alert-primary">
+        <h4>Most applied city:
+
+            @mostAppliedCity?.City (@mostAppliedCity?.Count applications)
+
+
+        </h4>
+    </div>
+</div>
+
+
+<h3>@ViewBag.MonthName</h3>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>City</th>
+            <th>Number of Applications</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var cityGroups = jobList?.GroupedByCityList
+            .OrderByDescending(g => g.Count);
+        }
+
+        @foreach (var group in cityGroups)
+        {
+            <tr>
+                <td>@group.City</td>
+                <td>@group.Count</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<hr />
+
+<table>
+    <thead>
+        <tr>
+            <th>Position</th>
+            <th>Number of Applications</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+
+            var positionGroups = jobList?.GroupedByPositionList
+            .OrderByDescending(group => group.Count);
+        }
+        @foreach (var group in positionGroups)
+        {
+            <tr>
+                <td>@group.Position</td>
+                <td>@group.Count</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<a asp-action="CreateJob" asp-route-yearId="@ViewBag.YearId" asp-route-monthId="@ViewBag.MonthId"
+    class="btn btn-outline-primary">Add</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Company</th>
+            <th>Position</th>
+            <th>City</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (!Model.Jobs.Any())
+        {
+            <tr>
+                <td colspan="5" class="text-center">No jobs applied this month.</td>
+            </tr>
+        }
+
+        @foreach (var job in Model.Jobs)
+        {
+            <tr>
+                <td>@job.Date.ToString("d")</td>
+                <td>@job.Company</td>
+                <td>@job.Position</td>
+                <td>@job.City</td>
+                <td><button class="hideRow btn btn-outline-warning">Hide row</button>
+                    <form asp-controller="Year" asp-action="DeleteJob" asp-route-yearId="@job.YearId"
+                        asp-route-monthId="@job.MonthId" asp-route-jobId="@job.JobId" method="post" style="display:inline">
+                        <button type="submit" class="btn btn-outline-danger">Delete</button>
+                    </form>
+                </td>
+
+
+
+
+            </tr>
+        }
+    </tbody>
+
+</table>
+
+
+@section Scripts {
+    <script>
+
+        const hideBtnEl = document.querySelectorAll(".hideRow");
+
+        hideBtnEl.forEach(btn => {
+            btn.addEventListener("click", function () {
+                let row = btn.parentElement.parentElement;
+                row.style.display = "none";
+                console.log(row);
+            })
+        })
+    </script>
+}

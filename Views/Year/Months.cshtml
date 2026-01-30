@@ -1,0 +1,38 @@
+﻿@model List<YearMonth>
+
+<h1>@ViewData["Title"]</h1>
+<h2>Year: @ViewBag.YearId</h2>
+
+<h3>Total Jobs: @ViewBag.TotalJobs</h3>
+<ol class="list-group list-group-numbered">
+
+    @foreach (var month in Model)
+    {
+        <li class="list-group-item">
+            <a asp-action="Jobs" asp-route-yearId="@month.YearId" asp-route-monthId="@month.MonthId">@month.Month.Mon</a>
+        </li>
+    }
+
+
+</ol>
+
+
+@* <table class="table">
+    <thead>
+        <tr>
+            <th>@(Model.Count < 2 ? "month" : "months")</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var month in Model)
+        {
+
+
+            <tr>
+                <td><a asp-action="Jobs" asp-route-yearId="@month.YearId"
+                        asp-route-monthId="@month.MonthId">@month.Month.Mon</a></td>
+            </tr>
+        }
+    </tbody>
+</table> *@
