@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker2\\",
+  "WorkspaceRootPath": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03511B6D-5B38-502C-9F7E-D6BFBCC043BF}|JobTracker2.csproj|c:\\users\\andreas\\desktop\\c#\\jobtracker2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{03511B6D-5B38-502C-9F7E-D6BFBCC043BF}|JobTracker2.csproj|c:\\users\\andreas\\desktop\\c#\\jobtracker\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{03511B6D-5B38-502C-9F7E-D6BFBCC043BF}|JobTracker2.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03511B6D-5B38-502C-9F7E-D6BFBCC043BF}|JobTracker2.csproj|c:\\users\\andreas\\desktop\\c#\\jobtracker2\\controllers\\yearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{03511B6D-5B38-502C-9F7E-D6BFBCC043BF}|JobTracker2.csproj|c:\\users\\andreas\\desktop\\c#\\jobtracker\\controllers\\yearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03511B6D-5B38-502C-9F7E-D6BFBCC043BF}|JobTracker2.csproj|solutionrelative:controllers\\yearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03511B6D-5B38-502C-9F7E-D6BFBCC043BF}|JobTracker2.csproj|c:\\users\\andreas\\desktop\\c#\\jobtracker2\\views\\year\\jobs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{03511B6D-5B38-502C-9F7E-D6BFBCC043BF}|JobTracker2.csproj|c:\\users\\andreas\\desktop\\c#\\jobtracker\\views\\year\\jobs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{03511B6D-5B38-502C-9F7E-D6BFBCC043BF}|JobTracker2.csproj|solutionrelative:views\\year\\jobs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03511B6D-5B38-502C-9F7E-D6BFBCC043BF}|JobTracker2.csproj|c:\\users\\andreas\\desktop\\c#\\jobtracker2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{03511B6D-5B38-502C-9F7E-D6BFBCC043BF}|JobTracker2.csproj|c:\\users\\andreas\\desktop\\c#\\jobtracker\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{03511B6D-5B38-502C-9F7E-D6BFBCC043BF}|JobTracker2.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03511B6D-5B38-502C-9F7E-D6BFBCC043BF}|JobTracker2.csproj|c:\\users\\andreas\\desktop\\c#\\jobtracker2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{03511B6D-5B38-502C-9F7E-D6BFBCC043BF}|JobTracker2.csproj|c:\\users\\andreas\\desktop\\c#\\jobtracker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{03511B6D-5B38-502C-9F7E-D6BFBCC043BF}|JobTracker2.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03511B6D-5B38-502C-9F7E-D6BFBCC043BF}|JobTracker2.csproj|c:\\users\\andreas\\desktop\\c#\\jobtracker2\\views\\year\\createjob.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{03511B6D-5B38-502C-9F7E-D6BFBCC043BF}|JobTracker2.csproj|c:\\users\\andreas\\desktop\\c#\\jobtracker\\views\\year\\createjob.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{03511B6D-5B38-502C-9F7E-D6BFBCC043BF}|JobTracker2.csproj|solutionrelative:views\\year\\createjob.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03511B6D-5B38-502C-9F7E-D6BFBCC043BF}|JobTracker2.csproj|c:\\users\\andreas\\desktop\\c#\\jobtracker2\\views\\year\\months.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{03511B6D-5B38-502C-9F7E-D6BFBCC043BF}|JobTracker2.csproj|c:\\users\\andreas\\desktop\\c#\\jobtracker\\views\\year\\months.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{03511B6D-5B38-502C-9F7E-D6BFBCC043BF}|JobTracker2.csproj|solutionrelative:views\\year\\months.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -60,9 +60,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker2\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -72,11 +72,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker2\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker2\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAEAAAAAAAAAAAAA8wEYAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAA8wEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-12-08T13:14:20.834Z",
               "EditorCaption": ""
@@ -85,9 +85,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Months.cshtml",
-              "DocumentMoniker": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker2\\Views\\Year\\Months.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker\\Views\\Year\\Months.cshtml",
               "RelativeDocumentMoniker": "Views\\Year\\Months.cshtml",
-              "ToolTip": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker2\\Views\\Year\\Months.cshtml",
+              "ToolTip": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker\\Views\\Year\\Months.cshtml",
               "RelativeToolTip": "Views\\Year\\Months.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -97,9 +97,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker2\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -109,9 +109,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Jobs.cshtml",
-              "DocumentMoniker": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker2\\Views\\Year\\Jobs.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker\\Views\\Year\\Jobs.cshtml",
               "RelativeDocumentMoniker": "Views\\Year\\Jobs.cshtml",
-              "ToolTip": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker2\\Views\\Year\\Jobs.cshtml",
+              "ToolTip": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker\\Views\\Year\\Jobs.cshtml",
               "RelativeToolTip": "Views\\Year\\Jobs.cshtml",
               "ViewState": "AgIAADYAAAAAAAAAAAAAADsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -121,9 +121,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "CreateJob.cshtml",
-              "DocumentMoniker": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker2\\Views\\Year\\CreateJob.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker\\Views\\Year\\CreateJob.cshtml",
               "RelativeDocumentMoniker": "Views\\Year\\CreateJob.cshtml",
-              "ToolTip": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker2\\Views\\Year\\CreateJob.cshtml",
+              "ToolTip": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker\\Views\\Year\\CreateJob.cshtml",
               "RelativeToolTip": "Views\\Year\\CreateJob.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -133,14 +133,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "YearController.cs",
-              "DocumentMoniker": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker2\\Controllers\\YearController.cs",
+              "DocumentMoniker": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker\\Controllers\\YearController.cs",
               "RelativeDocumentMoniker": "Controllers\\YearController.cs",
-              "ToolTip": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker2\\Controllers\\YearController.cs",
+              "ToolTip": "C:\\Users\\Andreas\\Desktop\\c#\\JobTracker\\Controllers\\YearController.cs",
               "RelativeToolTip": "Controllers\\YearController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAA0wC4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T16:52:43.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T16:52:43.677Z"
             }
           ]
         }
